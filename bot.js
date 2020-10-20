@@ -2,7 +2,7 @@
 const { Console } = require('console');
 const Discord = require('discord.js');
 // Get things from config.json
-const {token, name, id, messages, auto, repeat} = require('./config.json');
+const {token, name, id, auto, messages, repeat} = require('./config.json');
 const client = new Discord.Client();
 // Spaghetti code
 const TheHolyBible = `shut up ${name}`
@@ -11,6 +11,11 @@ var i = 0
 
 client.once('ready', () => {
     console.log(`Ready!`);
+    console.log(`Name is ${name}!`)
+    console.log(`ID is ${id}!`)
+    console.log(`Auto is ${auto}!`)
+    console.log(`Auto Message count is ${messages}`)
+    console.log(`Repeat is ${repeat}`)
 });
 
 client.on('message', message => {
