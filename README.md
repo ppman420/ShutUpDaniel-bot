@@ -10,9 +10,9 @@ Linux:
 # How to configure
 
 Config.js:
-	token:      	your bot's token
-	name:       	the person's name
-	id          	the person's id
-	messages    	how many messages the person needs to say before the bot automagically tells then to shut up
-	auto			true/false, controls if the bot should tell the person to shut up automagically
-	repeat			true/false, controls if the bot should tell the person to shut up after someone else says it
+	-token:      	your bot's token
+	-name:       	the person's name
+	-id          	the person's id
+	-messages    	how many messages the person needs to say before the bot automagically tells then to shut up
+	-auto		true/false, controls if the bot should tell the person to shut up automagically
+	-repeat		true/false, controls if the bot should tell the person to shut up after someone else says it
