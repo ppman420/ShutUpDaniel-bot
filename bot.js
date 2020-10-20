@@ -28,7 +28,7 @@ client.on('message', message => {
         if (repeat == true) {
             // Checks if the author is ${name}
             if (message.author.id != id) {
-                console.log(`${message.author.tag} (${message.author.id} says shut up ${name}).`)
+                console.log(`${message.author.tag} (${message.author.id}) says shut up ${name}.`)
                 message.channel.send(`shut up ${name}`)
             }
             // If ${name} tells ${name} to shut up, be more rude
