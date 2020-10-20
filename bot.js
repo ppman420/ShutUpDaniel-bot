@@ -14,8 +14,8 @@ client.once('ready', () => {
     console.log(`Name is ${name}!`)
     console.log(`ID is ${id}!`)
     console.log(`Auto is ${auto}!`)
-    console.log(`Auto Message count is ${messages}`)
-    console.log(`Repeat is ${repeat}`)
+    console.log(`Auto Message count is ${messages}!`)
+    console.log(`Repeat is ${repeat}!`)
 });
 
 client.on('message', message => {
