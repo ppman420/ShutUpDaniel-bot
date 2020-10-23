@@ -8,7 +8,6 @@ const client = new Discord.Client();
 const TheHolyBible = `shut up ${name}`
 const MrLsHentaiCollection = `${name} shut up`
 var i = messages
-var e = repeatSpeedUpAutoAmount
 
 client.once('ready', () => {
     // Say all this shit when starting
