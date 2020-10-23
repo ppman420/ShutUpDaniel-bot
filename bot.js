@@ -18,7 +18,7 @@ client.once('ready', () => {
     console.log(`Auto is ${auto}.`)
     console.log(`Auto Message count is ${messages}.`)
     console.log(`Repeat is ${repeat}.`)
-    console.log(`repeatSpeedUpAutoAmount is ${repeatSpeedUpAutoAmount}`)
+    console.log(`repeatSpeedUpAutoAmount is ${repeatSpeedUpAutoAmount}.`)
 });
 
 client.on('message', message => {
