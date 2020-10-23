@@ -4,5 +4,6 @@
 	"id": "420691248128412840",
 	"auto": true,
 	"messages": 100,
-	"repeat": false
+	"repeat": false,
+	"repeatSpeedUpAutoAmount": 5
 }
