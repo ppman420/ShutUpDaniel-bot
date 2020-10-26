@@ -21,11 +21,12 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
+    // Make messages lowercase
+    const LowerCaseMessage = message.content.toLowerCase();
     // Spaghetti code from this point onwards
-    // if else if else if else if else...
     // Make bot not responde to self
     if (message.author.bot) return;
-    if (message.content.includes (TheHolyBible) || message.content.includes (MrLsHentaiCollection)) {
+    if (LowerCaseMessage.includes (TheHolyBible) || LowerCaseMessage.includes (MrLsHentaiCollection)) {
         // Minus i by repeatSpeedUpAutoAmount
         i = (i - repeatSpeedUpAutoAmount)
         console.log(`${message.author.tag} (${message.author.id}) said shut up ${name}, waiting for ${i} messages before auto`)
