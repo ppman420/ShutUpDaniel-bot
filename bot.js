@@ -7,7 +7,7 @@ const client = new Discord.Client();
 // Spaghetti code
 const TheHolyBible = `shut up ${name}`
 const MrLsHentaiCollection = `${name} shut up`
-var i = messages
+var i = 0
 
 client.once('ready', () => {
     // Say all this shit when starting
